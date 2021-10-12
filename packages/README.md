@@ -26,11 +26,16 @@ Caso queira enviar o modulo para a raiz do Go, executar o comando `go install`
 
 ## Funções
 
-Funções que iniciam com letra maiuscula são publicas e com letra minuscula privada, sendo possivel utilizar apenas dentro do pacote.
+Funções que iniciam com letra maiuscula são publicas e com letra minuscula privadas, sendo possivel utilizar apenas dentro do pacote.
 
 ## Modulo Externo
 
 Instalando:
 ```shell
 $ go get github.com/badoux/checkmail
+```
+
+Remover dependencias (modulos) que não estão sendo usados
+```shell
+$ go mod tidy
 ```
