@@ -14,9 +14,9 @@ var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "kubehero",
-	Short: "Gerenciado de Clusters Kubernetes",
-	Long:  `Kubehero tem a função de automatizar o deploy de cluster Kubernetes e suas dependencias.`,
+	Use:   "clicobra",
+	Short: "Gerenciado de DNS",
+	Long:  `Clicobra tem a função de buscar endereções IPs e NS de hosts DNS.`,
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
