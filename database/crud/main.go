@@ -13,6 +13,11 @@ import (
 
 // go get github.com/gorilla/mux
 
+// CREATE = POST
+// READ = GET
+// UPDATE =DELETE PUT
+// DELETE = DELETE
+
 func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/usuarios", servidor.CriarUsuario).Methods(http.MethodPost)
